@@ -1,8 +1,26 @@
+const UserRoute = require('./Routes/User')
+
 class RestClient {
 	constructor ({ token, type, baseURL }) {
-		this._token = token
-		this._type = type
-		this._baseURL = baseURL
+		this.token = token
+		this.type = type
+		this.baseURL = baseURL
+	}
+
+	/**
+	 * Gets the data of a user
+	 * @param {string} userId Discord ID of the user to get
+	 * @function
+	 * @returns {Promise} data The data returned by the API
+	 * @author Mackan
+	 */
+	async getUser (userId) {
+		return await UserRoute({
+			...this,
+			params: {
+				userId,
+			},
+		})
 	}
 }
 
