@@ -1,0 +1,35 @@
+{
+  "name": "@discorddungeons/api-node",
+  "version": "1.0.0",
+  "description": "Discord Dungeons API Wrapper for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiscordDungeons/api-node.git"
+  },
+  "keywords": [
+    "drpg",
+    "discord",
+    "discord",
+    "dungeons",
+    "dungeons",
+    "api",
+    "wrapper"
+  ],
+  "author": "Mackan <mackan@discorddungeons.me>",
+  "contributors": [
+    "PlayTheFallen <fallen@discorddungeons.me>"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/DiscordDungeons/api-node/issues"
+  },
+  "homepage": "https://github.com/DiscordDungeons/api-node#readme",
+  "dependencies": {
+    "graphql": "^14.1.1",
+    "node-fetch": "^2.3.0"
+  }
+}
