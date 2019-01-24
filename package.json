@@ -31,5 +31,8 @@
   "dependencies": {
     "graphql": "^14.1.1",
     "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1"
   }
 }
